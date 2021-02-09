@@ -80,8 +80,13 @@ function Home() {
         <section className="flex-grid">
 
         <div className="container col">
+        <img
+    className='cat'
+    alt="kottans logo"
+    src={useBaseUrl('img/logoBlack.svg')}
+    />
+    </div>
         <div className="item">
-
         <h1 className="hero__title center">{siteConfig.title}</h1>
         <p className="hero__subtitle center">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
@@ -95,12 +100,7 @@ function Home() {
     </Link>
     </div>
     </div>
-    <img
-    className='cat'
-    alt="kottans logo"
-    src={useBaseUrl('img/logoBlack.svg')}
-    />
-    </div>
+
 
     <div className="container col">
         <Feature/>
